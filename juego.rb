@@ -1,4 +1,4 @@
-variable_jugador = ARGV[0].downcase!
+variable_jugador = ARGV[0].downcase
 variable_cp = rand(0..2)
 
 if variable_jugador == 'tijera' && variable_cp == 0
